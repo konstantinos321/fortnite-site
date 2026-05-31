@@ -93,7 +93,7 @@ export default function Home() {
   const [timeLeft, setTimeLeft] = useState("");
   const [menuOpen, setMenuOpen] = useState(false);
   const [darkMode, setDarkMode] = useState(true);
-const [apiTest, setApiTest] = useState("Loading...");
+const [apiTest, setApiTest] = useState("");
   const targetDate = new Date().getTime() + 1000 * 60 * 60 * 2;
 
   useEffect(() => {
@@ -131,16 +131,7 @@ const [apiTest, setApiTest] = useState("Loading...");
     return () => clearInterval(timer);
 
   }, []);
-useEffect(() => {
-  axios
-    .get("https://jsonplaceholder.typicode.com/posts/1")
-    .then((response) => {
-      setApiTest(response.data.title);
-    })
-    .catch(() => {
-      setApiTest("API Error");
-    });
-}, []);
+
   const filteredTournaments = tournaments.filter((tournament) => {
 
     const matchesSearch = tournament.title
