@@ -42,28 +42,28 @@ export default function Home() {
     },
   ];
 
-  const news = [
-    {
-      title: "FNCS Global Championship Announced",
-      description: "Epic Games revealed the new FNCS format and prize pool.",
-      image:
-        "https://images.unsplash.com/photo-1542751110-97427bbecf20?q=80&w=2070&auto=format&fit=crop",
-    },
+ const news = [
+  {
+    title: "Fortnite Item Shop",
+    description: "Live Fortnite shop updates coming soon.",
+    image:
+      "https://images.unsplash.com/photo-1542751110-97427bbecf20?q=80&w=2070&auto=format&fit=crop",
+  },
 
-    {
-      title: "Zero Build Cups Return",
-      description: "Competitive Zero Build tournaments are back this season.",
-      image:
-        "https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=2071&auto=format&fit=crop",
-    },
+  {
+    title: "FNCS News",
+    description: "Latest FNCS announcements and tournament information.",
+    image:
+      "https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=2071&auto=format&fit=crop",
+  },
 
-    {
-      title: "New Ranked Rewards",
-      description: "Players can unlock exclusive cosmetics through ranked cups.",
-      image:
-        "https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?q=80&w=2070&auto=format&fit=crop",
-    },
-  ];
+  {
+    title: "Competitive Updates",
+    description: "Real-time competitive Fortnite updates coming soon.",
+    image:
+      "https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?q=80&w=2070&auto=format&fit=crop",
+  },
+];
 
   const leaderboard = [
     {
