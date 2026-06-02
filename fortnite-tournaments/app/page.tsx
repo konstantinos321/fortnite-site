@@ -88,12 +88,12 @@ export default function Home() {
     },
   ];
 
-  const [search, setSearch] = useState("");
+   const [search, setSearch] = useState("");
   const [selectedRegion, setSelectedRegion] = useState("ALL");
   const [timeLeft, setTimeLeft] = useState("");
   const [menuOpen, setMenuOpen] = useState(false);
   const [darkMode, setDarkMode] = useState(true);
-const [apiTest, setApiTest] = useState("");
+
   const targetDate = new Date().getTime() + 1000 * 60 * 60 * 2;
 
   useEffect(() => {
